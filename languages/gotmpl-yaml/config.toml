@@ -1,0 +1,5 @@
+name = "Go YAML Template"
+grammar = "gotmpl"
+path_suffixes = ["yaml.gotmpl", "yaml.tmpl", "yaml.tpl", "yml.gotmpl", "yml.tmpl", "yml.tpl"]
+tab_size = 2
+hard_tabs = false

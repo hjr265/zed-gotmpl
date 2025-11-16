@@ -1,0 +1,5 @@
+name = "Go TOML Template"
+grammar = "gotmpl"
+path_suffixes = ["toml.gotmpl", "toml.tmpl", "toml.tpl"]
+tab_size = 2
+hard_tabs = false

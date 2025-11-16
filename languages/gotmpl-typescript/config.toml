@@ -1,0 +1,5 @@
+name = "Go TypeScript Template"
+grammar = "gotmpl"
+path_suffixes = ["ts.gotmpl", "ts.tmpl", "ts.tpl"]
+tab_size = 2
+hard_tabs = false

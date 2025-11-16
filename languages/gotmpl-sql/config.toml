@@ -1,0 +1,5 @@
+name = "Go SQL Template"
+grammar = "gotmpl"
+path_suffixes = ["sql.gotmpl", "sql.tmpl", "sql.tpl"]
+tab_size = 2
+hard_tabs = false

@@ -1,0 +1,5 @@
+name = "Go XML Template"
+grammar = "gotmpl"
+path_suffixes = ["xml.gotmpl", "xml.tmpl", "xml.tpl"]
+tab_size = 2
+hard_tabs = false

@@ -1,0 +1,67 @@
+{{/* This is a comment showcasing Go template syntax highlighting */}}
+
+{{/* Keywords: define, block, if, else, range, with, template, end */}}
+{{define "comprehensive"}}
+
+{{/* Variables and field identifiers */}}
+{{.Title}}
+{{.User.Name}}
+{{.User.Email}}
+
+{{/* Function calls */}}
+{{printf "Hello, %s!" .Name}}
+{{len .Items}}
+{{index .Slice 0}}
+
+{{/* Control structures with keywords */}}
+{{if .IsActive}}
+	Active user
+{{else}}
+	Inactive user
+{{end}}
+
+{{/* Range with assignment operator */}}
+{{range $index, $item := .Items}}
+	{{$index}}: {{$item.Name}}
+{{end}}
+
+{{/* With block */}}
+{{with .User}}
+	Name: {{.Name}}
+	Age: {{.Age}}
+{{end}}
+
+{{/* String literals */}}
+{{"Hello, World!"}}
+{{`Raw string literal`}}
+{{'a'}}
+
+{{/* Escape sequences in strings */}}
+{{"Line 1\nLine 2\tTabbed"}}
+
+{{/* Number literals */}}
+{{42}}
+{{3.14}}
+{{1.5e10}}
+
+{{/* Boolean values */}}
+{{true}}
+{{false}}
+
+{{/* Nil constant */}}
+{{nil}}
+
+{{/* Delimiters and punctuation */}}
+{{(add 1 2)}}
+{{.User.Address.Street}}
+
+{{/* Template inclusion */}}
+{{template "header" .}}
+{{block "content" .}}
+	Default content
+{{end}}
+
+{{/* Trimming whitespace with special delimiters */}}
+{{- .Value -}}
+
+{{end}}

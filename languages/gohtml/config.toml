@@ -1,5 +1,5 @@
 name = "Go HTML Template"
 grammar = "gotmpl"
-path_suffixes = ["gohtml", "html.gotmpl", "html.gotpl"]
+path_suffixes = ["gohtml", "html.gotmpl", "html.gotpl", "html.tmpl", "html.tpl"]
 tab_size = 4
 hard_tabs = true

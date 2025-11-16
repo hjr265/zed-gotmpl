@@ -1,0 +1,5 @@
+name = "Go JSON Template"
+grammar = "gotmpl"
+path_suffixes = ["json.gotmpl", "json.tmpl", "json.tpl"]
+tab_size = 2
+hard_tabs = false

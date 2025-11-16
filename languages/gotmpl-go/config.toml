@@ -1,0 +1,5 @@
+name = "Go Template"
+grammar = "gotmpl"
+path_suffixes = ["go.gotmpl", "go.tmpl", "go.tpl"]
+tab_size = 4
+hard_tabs = true

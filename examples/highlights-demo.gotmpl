@@ -1,0 +1,58 @@
+{{/* Comment: Syntax highlighting demo */}}
+
+{{define "demo"}}
+
+{{/* Keywords */}}
+{{if .Condition}}
+	{{range .Items}}
+		{{with .Value}}
+			{{block "section" .}}
+				{{template "partial" .}}
+			{{end}}
+		{{end}}
+	{{else}}
+		No items
+	{{end}}
+{{end}}
+
+{{/* Variables and field access */}}
+{{.Name}}
+{{.User.Email}}
+{{$variable := .Data}}
+{{$index, $item := .List}}
+
+{{/* Function calls */}}
+{{printf "Hello, %s" .Name}}
+{{len .Items}}
+{{index .Array 0}}
+
+{{/* Operators */}}
+{{$x := 10}}
+{{$name := "value"}}
+
+{{/* Strings */}}
+{{"double quoted"}}
+{{`raw string`}}
+{{"escaped\n\t\r"}}
+{{'r'}}
+
+{{/* Numbers */}}
+{{42}}
+{{3.14}}
+{{1.5e10}}
+
+{{/* Booleans */}}
+{{true}}
+{{false}}
+
+{{/* Nil */}}
+{{nil}}
+
+{{/* Punctuation and delimiters */}}
+{{(add 1 2)}}
+{{.Path.To.Field}}
+
+{{/* Whitespace trimming */}}
+{{- .Value -}}
+
+{{end}}

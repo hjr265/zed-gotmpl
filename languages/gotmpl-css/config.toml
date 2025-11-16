@@ -1,0 +1,5 @@
+name = "Go CSS Template"
+grammar = "gotmpl"
+path_suffixes = ["css.gotmpl", "css.tmpl", "css.tpl"]
+tab_size = 2
+hard_tabs = false

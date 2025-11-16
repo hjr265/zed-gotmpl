@@ -5,7 +5,6 @@ path_suffixes = [
     "txt.gotmpl",
     "txt.gotpl",
     "go.txt",
-    "go.tpl",
     "gtpl",
 ]
 tab_size = 4

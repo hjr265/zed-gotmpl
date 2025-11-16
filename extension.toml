@@ -1,6 +1,6 @@
 id = "gotmpl"
 name = "Gotmpl"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Mahmud Ridwan <m@hjr265.me>"]
 description = "Go template support, includes text/template (gotmpl) and html/template (gohtml)."

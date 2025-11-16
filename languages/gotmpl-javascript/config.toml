@@ -1,0 +1,5 @@
+name = "Go JavaScript Template"
+grammar = "gotmpl"
+path_suffixes = ["js.gotmpl", "js.tmpl", "js.tpl"]
+tab_size = 2
+hard_tabs = false
